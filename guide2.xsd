@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"??>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Guide">
+   <xs:complexType>
+	<xs:choice maxOccurs="unbounded">
+		<xs:element name="DEVICE"  minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+			<xs:sequence>
+				
+				<xs:element name="NameDevice" type="xs:string"/>
+				<xs:element name="Type" type="xs:string"/>
+				<xs:element name="Data" type="xs:date"/>
+				<xs:element name="Person" type="xs:string"/>
+
+				  <xs:element name="MASTER" minOccurs="0" maxOccurs="unbounded"/>
+				   <xs:complexType>
+				     <xs:sequence>
+				      <xs:element name="SurnameMaster" type="xs:string"/>
+				      <xs:element name="Name" type="xs:string"/>
+				      <xs:element name="Name1" type="xs:string"/>
+				      <xs:element name="Qualification" type="xs:string"/>
+				      <xs:element name="Data" type="xs:date"/>
+				      </xs:sequence>
+				   <xs:attribute name="IDMASTER" type="xs:integer"/>
+				  </xs:complexType>
+				 </xs:element>	
+
+				    <xs:element name="REPAIR" minOccurs="0" maxOccurs="unbounded">
+						<xs:complexType>
+						   <xs:sequence>							
+							<xs:element name="Type" type="xs:string"/>
+							<xs:element name="Cost" type="xs:string"/>
+							<xs:element name="Data" type="xs:date"/>
+						   </xs:sequence>
+						<xs:attribute name="IDREPAIR" type="xs:integer"/>
+						</xs:complexType>
+				      </xs:element>
+			</xs:sequence>
+				   
+		<xs: attribute name="IDDEVICE" type="xs:integer"/>
+		</xs:complexType>
+		</xs:element>
+	</xs:choice>  
+   </xs:complexType>
+</xs:element>  
+
+</xs:schema>
