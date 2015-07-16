@@ -1,0 +1,37 @@
+<html>
+<body>
+
+<h1>Лекарственные средства</h1>
+
+<div>
+<b>IDMedicaments:</b> <span id="IDMedicaments"></span><br />
+<b>Name_Medicaments:</b><span id="Name_Medicaments"></span><br />
+<b>Recommendations:</b><span id="Recommendations"></span><br />
+<b>Unit:</b><span id="Unit"></span><br />
+<b>Count:</b><span id="Count"></span><br />
+<b>Maker:</b><span id="Maker"></span>
+</div>
+
+<script>
+
+	if (window.XMLHttpRequest) {
+	xmlhttp = new XMLHttpRequest();	}
+
+	else {
+	xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}
+
+	xmlhttp.open("GET", "medicine3.xml", false);
+	xmlhttp.send();
+	xmlDoc = xmlhttp.responseXML;
+
+	document.getElementById("IDMedicaments").innerHTML =xmlDoc.getElementsByTagName("IDMedicaments")[0].childNodes[0].nodeValue;
+	document.getElementById("Name_Medicaments").innerHTML =xmlDoc.getElementsByTagName("Name_Medicaments")[0].childNodes[0].nodeValue;
+	document.getElementById("Recommendations").innerHTML = xmlDoc.getElementsByTagName("Recommendations")[0].childNodes[0].nodeValue;
+	document.getElementById("Unit").innerHTML =xmlDoc.getElementsByTagName("Unit")[0].childNodes[0].nodeValue;
+	document.getElementById("Count").innerHTML =xmlDoc.getElementsByTagName("Count")[0].childNodes[0].nodeValue;
+	document.getElementById("Maker").innerHTML = xmlDoc.getElementsByTagName("Maker")[0].childNodes[0].nodeValue;
+
+</script>
+
+</body>
+</html>
