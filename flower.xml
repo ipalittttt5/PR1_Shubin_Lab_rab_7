@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Flower_prod xmlns="flower.xsd"> 
+
+
+<FLOWER> 
+	<IDFlower>1</IDFlower>
+	<Name_Flower>Rosa</Name_Flower>
+	<Sort_Flower>Obyknovennaya</Sort_Flower>
+	<Length_Flower>1,5 m</Length_Flower>
+	<Type_Flower>Tsvetuschii</Type_Flower>
+	<About_Flower>Imeet shipi</About_Flower>
+</FLOWER> 
+
+<FLOWER> 
+	<IDFlower>2</IDFlower>
+	<Name_Flower>Kaktus</Name_Flower>
+	<Sort_Flower>Kaktus domashnii</Sort_Flower>
+	<Length_Flower>10 sm</Length_Flower>
+	<Type_Flower>Ne tsvetet</Type_Flower>
+	<About_Flower>Koluchii</About_Flower>
+</FLOWER> 
+
+<FLOWER> 
+	<IDFlower>3</IDFlower>
+	<Name_Flower>Liliya</Name_Flower>
+	<Sort_Flower>Liliya Obyknovennaya</Sort_Flower>
+	<Length_Flower>90 sm</Length_Flower>
+	<Type_Flower>Tsvetuschii</Type_Flower>
+	<About_Flower>Iz semeystva blablabla</About_Flower>
+</FLOWER> 
+
+<FLOWER> 
+	<IDFlower>4</IDFlower>
+	<Name_Flower>Tyulpan</Name_Flower>
+	<Sort_Flower>Tyulpan polevoy</Sort_Flower>
+	<Length_Flower>40 sm</Length_Flower>
+	<Type_Flower>Tsvetuschii</Type_Flower>
+	<About_Flower>Mnogoletnee lukovichnoe rastenie</About_Flower>
+</FLOWER> 
+
+<FLOWER> 
+	<IDFlower>5</IDFlower>
+	<Name_Flower>Gvozdika</Name_Flower>
+	<Sort_Flower>Gvozdika Obyknovennaya</Sort_Flower>
+	<Length_Flower>80 sm</Length_Flower>
+	<Type_Flower>Tsvetuschii</Type_Flower>
+	<About_Flower>Traditsionno krasnie</About_Flower>
+</FLOWER>
+
+</Flower_prod>
