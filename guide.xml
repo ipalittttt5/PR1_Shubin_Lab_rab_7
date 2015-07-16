@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Guide xmlns="guide.xsd">
+
+<DEVICE>
+	<IDdevice>1</IDdevice>
+	<Name>Chainik</Name>
+	<Type>Bitovaya technika</Type>
+	<Data>2014-12-04</Data>
+	<Person>Proizvoditel</Person>
+</DEVICE>
+
+<DEVICE>
+	<IDdevice>2</IDdevice>
+	<Name>Utyg</Name>
+	<Type>Bitovaya technika</Type>
+	<Data>2010-02-11</Data>
+	<Person>Magazin</Person>
+</DEVICE>
+
+<DEVICE>
+	<IDdevice>3</IDdevice>
+	<Name>Sotovyi telefon</Name>
+	<Type>Sredstvo svyazi</Type>
+	<Data>2015-07-13</Data>
+	<Person>Proizvoditel</Person>
+</DEVICE>
+
+<DEVICE>
+	<IDdevice>4</IDdevice>
+	<Name>Gazonokosilka</Name>
+	<Type>Dachnaya technika</Type>
+	<Data>2014-05-25</Data>
+	<Person>Postavschik</Person>
+</DEVICE>
+
+<DEVICE>
+	<IDdevice>5</IDdevice>
+	<Name>Perforator</Name>
+	<Type>Stroitelnyi instrument</Type>
+	<Data>2013-03-30</Data>
+	<Person>Magazin</Person>
+</DEVICE>
+
+</Guide>
