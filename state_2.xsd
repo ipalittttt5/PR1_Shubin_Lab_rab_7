@@ -1,0 +1,46 @@
+<script>
+<?xml version="1.0" encoding="utf-8"??>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="STATE">
+   <xs:complexType>
+	<xs:choice maxOccurs="unbounded">
+		<xs:element name="WORKER"  minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+			<xs:sequence>
+				
+				<xs:element name="SURNAME" type="xs:string"/>
+				<xs:element name="NAME" type="xs:string"/>
+				<xs:element name="NAME1" type="xs:string"/>
+				<xs:element name="PLACE" type="xs:string"/>
+				<xs:element name="DATA" type="xs:date"/>
+
+				   <xs:element name="KIDS" minOccurs="0" maxOccurs="10"/>
+				   <xs:complexType>
+				     <xs:sequence>
+				      <xs:element name="NameK" type="xs:string"/>
+				      <xs:element name="Data" type="xs:date"/>
+				      <xs:element name="GIFTS" minOccurs="0" maxOccurs="unbounded">
+						<xs:complexType>
+						   <xs:sequence>							
+							<xs:element name="Cost" type="xs:string"/>
+							<xs:element name="Data" type="xs:date"/>
+						   </xs:sequence>
+						<xs:attribute name="IDGift" type="xs:integer"/>
+						</xs:complexType>
+				      </xs:element>
+				     </xs:sequence>
+				   <xs:attribute name="IDKIDS" type="xs:integer"/>
+				</xs:complexType>
+				</xs:element>		        
+			</xs:sequence>
+		<xs: attribute name="IDWORKER" type="xs:integer"/>
+		</xs:complexType>
+		</xs:element>
+	</xs:choice>  
+   </xs:complexType>
+</xs:element>  
+
+</xs:schema>
+
