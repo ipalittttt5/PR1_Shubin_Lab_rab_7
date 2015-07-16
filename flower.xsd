@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Flower_prod">
+	<xs:complexType>
+		<xs:choice maxOccurs="unbounded">
+		<xs:element name="FLOWER" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Sort_Flower" type="xs:string"/>
+				<xs:element name="Name_Flower" type="xs:string"/>
+				<xs:element name="Length_Flower" type="xs:string"/>
+				<xs:element name="Type_Flower" type="xs:string"/>
+				<xs:element name="About_Flower" type="xs:string"/>			
+			</xs:sequence>
+			<xs:attribute name="IDFlower" type="xs:integer"/>
+		</xs:complexType>
+		</xs:element>
+			</xs:choice>  
+		</xs:complexType>
+</xs:element>  
+</xs:schema>
