@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<STATE xmlns="state_1.xsd">
+
+   <WORKER>
+	<IDWORKER>1</IDWORKER>
+	<SURNAME>Ivanov</SURNAME>
+	<NAME>Vasilii</NAME>
+	<NAME1>Petrovich</NAME1>
+	<PLACE>Director</PLACE>
+	<DATA>2010-01-01</DATA>
+   </WORKER>
+
+   <WORKER>
+	<IDWORKER>2</IDWORKER>
+	<SURNAME>Vasileva</SURNAME>
+	<NAME>Anna</NAME>
+	<NAME1>Ivanovna</NAME1>
+	<PLACE>Secretar</PLACE>
+	<DATA>2011-05-11</DATA>
+   </WORKER>
+
+   <WORKER>
+	<IDWORKER>3</IDWORKER>
+	<SURNAME>Petrov</SURNAME>
+	<NAME>Ivan</NAME>
+	<NAME1>Andreevich</NAME1>
+	<PLACE>Economist</PLACE>
+	<DATA>2009-10-28</DATA>
+   </WORKER>
+
+   <WORKER>
+	<IDWORKER>4</IDWORKER>
+	<SURNAME>Andreeva</SURNAME>
+	<NAME>Maria</NAME>
+	<NAME1>Evgenevna</NAME1>
+	<PLACE>Marketolog</PLACE>
+	<DATA>2014-08-13</DATA>
+   </WORKER>
+
+   <WORKER>
+	<IDWORKER>5</IDWORKER>
+	<SURNAME>Kuznetsova</SURNAME>
+	<NAME>Natalya</NAME>
+	<NAME1>Alekseevna</NAME1>
+	<PLACE>Prodavec</PLACE>
+	<DATA>2015-11-29</DATA>
+   </WORKER>
+
+</STATE>
