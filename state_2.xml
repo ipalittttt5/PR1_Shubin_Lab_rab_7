@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<STATE xmlns="state_2.xsd">
+
+	<WORKER IDWORKER="1"> 
+	   <SURNAME>Ivanov</SURNAME>
+	   <NAME>Vasilii</NAME>
+	   <NAME1>Petrovich</NAME1>
+	   <PLACE>Director</PLACE>
+	   <DATA>2010-01-01</DATA>
+	   <KIDS IDKids="1">
+		<NameK>Petenka</NameK>
+		<Data>1996-12-25</Data>
+		   <GIFTS IDGift="1">
+			<Cost>3500 rub</Cost>
+			<Data>1996-12-24</Data>
+		   </GIFTS>
+	   </KIDS>
+	
+	</WORKER>
+
+
+	<WORKER IDWORKER="2"> 
+	   <SURNAME>Vasileva</SURNAME>
+	   <NAME>Anna</NAME>
+	   <NAME1>Ivanovna</NAME1>
+	   <PLACE>Secretar</PLACE>
+	   <DATA>2011-05-11</DATA>
+	   <KIDS IDKids="2">
+		<NameK>Sonechka</NameK>
+		<Data>2000-01-14</Data>
+		   <GIFTS IDGift="2">
+			<Cost>300 rub</Cost>
+			<Data>2000-01-13</Data>
+		   </GIFTS>
+	   </KIDS>
+	
+	</WORKER>
+
+	<WORKER IDWORKER="3"> 
+	   <SURNAME>Petrov</SURNAME>
+	   <NAME>Ivan</NAME>
+	   <NAME1>Andreevich</NAME1>
+	   <PLACE>Economist</PLACE>
+	   <DATA>2009-10-28</DATA>
+	   <KIDS IDKids="3">
+		<NameK>Tanechka</NameK>
+		<Data>2009-08-31</Data>
+		   <GIFTS IDGift="3">
+			<Cost>500 rub</Cost>
+			<Data>2009-09-01</Data>
+		   </GIFTS>
+	   </KIDS>
+	   
+           <KIDS IDKids="4">
+		<NameK>Kolya</NameK>
+		<Data>2009-08-31</Data>
+		   <GIFTS IDGift="4">
+			<Cost>500 rub</Cost>
+			<Data>2009-09-01</Data>
+		   </GIFTS>
+	   </KIDS>
+	</WORKER>
+
+
+	<WORKER IDWORKER="4"> 
+	   <SURNAME>Andreeva</SURNAME>
+	   <NAME>Maria</NAME>
+	   <NAME1>Evgenevna</NAME1>
+	   <PLACE>Marketolog</PLACE>
+	   <DATA>2014-08-13</DATA>
+	   <KIDS IDKids="5">
+		<NameK>Olechka</NameK>
+		<Data>2002-02-05</Data>
+		   <GIFTS IDGift="5">
+			<Cost>200 rub</Cost>
+			<Data>2002-02-04</Data>
+		   </GIFTS>
+	   </KIDS>
+	
+	</WORKER>
+
+
+	<WORKER IDWORKER="5"> 
+	   <SURNAME>Kuznetsova</SURNAME>
+	   <NAME>Natalya</NAME>
+	   <NAME1>Alekseevna</NAME1>
+	   <PLACE>Prodavec</PLACE>
+	   <DATA>2015-11-19</DATA>
+	   <KIDS IDKids="6">
+		<NameK>Vanechka</NameK>
+		<Data>2002-11-12</Data>
+		   <GIFTS IDGift="6">
+			<Cost>200 rub</Cost>
+			<Data>2002-11-11</Data>
+		   </GIFTS>
+	   </KIDS>
+	
+	</WORKER>
+
+</STATE>
