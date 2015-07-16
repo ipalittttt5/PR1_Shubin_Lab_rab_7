@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Medicaments xmlns="medicaments.xsd"> 
+
+<MED> 
+	<IDMedicaments>1</IDMedicaments>
+	<Name_Medicaments>Aspirin</Name_Medicaments>
+	<Recommendations>Primenyaetsya v tselyah obezbolivaniya</Recommendations>
+	<Unit>Tabletka</Unit>
+	<Count>20</Count>
+	<Maker>PharmStandart</Maker>
+</MED>
+
+<MED>
+	<IDMedicaments>2</IDMedicaments>
+	<Name_Medicaments>Citromon</Name_Medicaments>
+	<Recommendations>Primenyaetsya pri golovnih bolyah</Recommendations>
+	<Unit>Tabletka</Unit>
+	<Count>10</Count>
+	<Maker>VeroPharm</Maker>
+</MED>
+
+<MED>
+	<IDMedicaments>3</IDMedicaments>
+	<Name_Medicaments>Noshpa</Name_Medicaments>
+	<Recommendations>Ot boley v zhivote</Recommendations>
+	<Unit>Tabletka</Unit>
+	<Count>30</Count>
+	<Maker>PharmStandart</Maker>
+</MED>
+
+<MED>
+	<IDMedicaments>4</IDMedicaments>
+	<Name_Medicaments>Nastoika valeriany</Name_Medicaments>
+	<Recommendations>Dozirovka variruetsya v zavisimosti ot tseli primeneniya</Recommendations>
+	<Unit>ml</Unit>
+	<Count>150 ml</Count>
+	<Maker>Midicina dlya vseh</Maker>
+</MED>
+
+<MED>
+	<IDMedicaments>5</IDMedicaments>
+	<Name_Medicaments>Ascorbinovaya kislota</Name_Medicaments>
+	<Recommendations>Detyam ne bolee 3 tabletok v den</Recommendations>
+	<Unit>Tabletka</Unit>
+	<Count>10</Count>
+	<Maker>PharmStandart</Maker>
+</MED>
+
+</Medicaments>
